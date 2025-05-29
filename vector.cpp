@@ -14,7 +14,7 @@ class MyVector {
             _capacity = 0;
             ptr = nullptr;
         }
-         MyVector () {
+         ~MyVector () {
             delete[] ptr;
             _size = 0;
             _capacity = 0;
